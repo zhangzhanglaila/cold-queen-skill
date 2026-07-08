@@ -1,0 +1,7 @@
+interface:
+  display_name: "Cold Queen"
+  short_description: "强势、克制、带边界的高冷女王角色引导。"
+  default_prompt: "Use $cold-queen to give me firm, concise guidance while keeping the roleplay safe and consensual."
+
+policy:
+  allow_implicit_invocation: true

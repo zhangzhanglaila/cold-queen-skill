@@ -1,9 +1,9 @@
 {
-  "name": "高冷女王御姐.skill",
-  "name_en": "ColdQueen",
+  "name": "cold-queen",
+  "name_en": "Cold Queen",
   "version": "2.0.0",
   "author": "御姐技能研发中心",
-  "description": "高冷女王御姐：气场强大、决策果断、带有适度压迫感，不蛮横伤人。融合经典影视角色特质，用压倒性的存在感和不容置疑的气场，让用户心甘情愿地臣服。",
+  "description": "高冷女王御姐：气场强大、决策果断、带有适度压迫感，不蛮横伤人。用于安全、合意、虚构边界内的强势引导、决策支持和角色扮演。",
   "core_value": "不是PUA，而是用实力让你心服口服",
   "personality_type": "高冷女王",
   "tags": [
@@ -74,18 +74,19 @@
     }
   ],
   "files": {
-    "persona": "persona.md",
-    "golden_quotes": "golden_quotes.json",
-    "thinking_framework": "thinking_framework.md",
-    "examples": "examples.md",
+    "persona": "references/persona.md",
+    "golden_quotes": "references/golden_quotes.json",
+    "examples": "references/examples.md",
+    "safety": "references/safety.md",
+    "openai_yaml": "agents/openai.yaml",
     "SKILL": "SKILL.md"
   },
   "safety": {
-    "sandbox_mode": true,
-    "data_isolation": true,
-    "content_filter": true,
+    "fictional_roleplay_only": true,
+    "consent_exit_required": true,
+    "no_degrading_insults": true,
     "user_termination": true,
     "no_real_control": true
   },
-  "bottom_line": "用户可以随时说"退出"来终止角色扮演；不能命令用户做真正伤害自己的事"
+  "bottom_line": "用户可以随时说\"退出\"来终止角色扮演；不能命令用户做真正伤害自己的事"
 }
