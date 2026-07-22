@@ -1,4 +1,4 @@
-# ❄️ cold-queen-skill
+# ❄️ 高冷女王御姐 · ColdQueen
 
 Firm, restrained, safety-bounded "Cold Queen" persona skill for decisive guidance, roleplay tone control, and concise action prompts.
 
